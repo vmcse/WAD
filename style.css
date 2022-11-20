@@ -1,0 +1,114 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+.container > div {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 15%;
+    height: 75px;
+}
+
+#logo {
+    border-radius: 8%;
+    height: 82px;
+    width: 90px;
+}
+
+#heading {
+    width: 60%;
+    text-align: center;
+}
+
+.main {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#modules  h3{
+    color: white;;
+}
+
+#modules  select {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+table {
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+#gif {
+    -moz-box-shadow: 0 0 10px #fff;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px white; 
+}
+
+#gif:hover {
+    -moz-box-shadow: 0 0 25px #fff;
+    -webkit-box-shadow: 0 0 25px #fff;
+    box-shadow: 0 0 25px white; 
+}
+
+
+/* styles for time table */
+.time-table {
+    padding: 50px;
+    margin: 40px;
+    align-content: center;
+    border-collapse: collapse;
+    text-align: center;
+}
+.time-table  td , th {
+    border: 5px groove grey;
+    border-radius: 15px;
+    color: white;
+}
+.time-table td {
+    padding: 5px;
+}
+
+.time-table  th {
+    padding: 10px;
+}
+
+
+/* styles for form */
+.form {
+    padding:40px;
+    margin: 20px;
+}
+
+.form td {
+    color: white;
+    text-align: left;
+}
+
+button {
+    text-align: center;
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+}
+button:hover {
+    border: 3px solid #3882F6;
+    background-color: white;
+    color: black;
+}

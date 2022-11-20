@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Profile Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div><img id="logo" src="images/bully.jpeg" height=82></div>
+            <div id="heading"><h3>Student Hostel Application Form</h3></div>
+        </div>
+
+        <div class="form">
+            <form>
+                <div id="main">
+                    <div class="login">
+                        <table align="center" cellpadding="8">
+                            <tr>
+                                <td>Enter First Name:</td>
+                                <td><input type="text" placeholder="First Name"></td>
+                            </tr>
+                            <tr>
+                                <td>Enter Last Name:</td>
+                                <td><input type="text" placeholder="Last Name"></td>
+                            </tr>
+                            <tr>
+                                <td>Date Of Birth:</td>
+                                <td><input type="date" min="1900-01-01" max="2022-12-30"></td>
+                            </tr>
+                            <tr>
+                                <td>Gender:</td>
+                                <td>
+                                    <input type="radio" name="sex" value="male">Male
+                                    <input type="radio" name="gender" value="female">Female
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>City:</td>
+                                <td>
+                                    <select>
+                                        <option value="-1" selected>Select..</option>
+                                        <option value="Kadapa">KADAPA</option>
+                                        <option value="Tirupathi">THIRUPATHI</option>
+                                        <option value="Kurnool">KURNOOL</option>
+                                        <option value="Hyderabad">HYDERABAD</option>
+                                        <option value="Ananthapuram">ANANTHAPURAM</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Disctrict:</td>
+                                <td>
+                                    <select name="district">
+                                        <option value="-1" selected>Select..</option>
+                                        <option value="Kadapa">KADAPA</option>
+                                        <option value="Chitoor">CHITOOR</option>
+                                        <option value="Vijayawada">VIJAYAWADA</option>
+                                        <option value="Ananthapuram">ANANTHAPURAM</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Enter Email ID:</td>
+                                <td><input type="text" placeholder="Email ID"></td>
+                            </tr>
+                            <tr>
+                                <td>Enter Username:</td>
+                                <td><input type="text" placeholder="Username"></td>
+                            </tr>
+                            <tr>
+                                <td>Enter Password:</td>
+                                <td><input type="password" placeholder="Password"></td>
+                            </tr>
+                            <tr>
+                                <td>Confirm Password:</td>
+                                <td><input type="password" placeholder="Confirm Password"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align: center;">
+                                    <button type="reset" value="Clear Form"> Clear Form</button>
+                                    <button type="submit" value="Submit" onclick="registration()">Submit</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

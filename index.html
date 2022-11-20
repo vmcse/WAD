@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Profile Page</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+            function nextPage() {
+                var choice = document.getElementById('options');
+                
+                if (choice.value == "1") {
+                    window.location.href = "./table.html";
+                }
+                else if (choice.value == "2") {
+                    window.location.href = "./form.html";
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div><img id="logo" src="images/bully.jpeg" height=82></div>
+            <div id="heading"><h3>My WAD Modules</h3></div>
+        </div>
+        <div class="main">
+            <img id="gif" src="images/minion.gif">
+            <div id="modules">
+                <table align="center">
+                    <tr>
+                        <td><div><h3>Select Module: </h3></div></td>
+                        <td>
+                            <select id="options">
+                                <option value="1">Table</option>
+                                <option value="2">Student Application Form</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit" onclick="nextPage()">Go!</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
